@@ -42,7 +42,7 @@ Installation
 Clone the Repository
 
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone 
 cd your-repo-name
 Import the Project into Your IDE
 
