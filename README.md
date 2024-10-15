@@ -56,7 +56,7 @@ Follow these steps to set up the project on your local machine:
 Clone the Repository:
 
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone 
 cd your-repo-name
 Import the Project into Your IDE:
 
@@ -98,16 +98,20 @@ Base Setup: The BasePage.java class initializes the WebDriver instance based on 
 Test Cases:
 
 LoginPage.java: Tests the login functionality of the application.
+
 SearchPage.java: Tests the search feature.
+
 CheckOutPage.java: Tests the checkout process.
+
 PaymentPageTest.java: Tests the payment workflow.
+
 Teardown: After all tests are executed, the tearDown method in BasePage.java closes the WebDriver and quits the browser instance.
 
 Future Enhancements
+
 Given more time, the following improvements can be made to enhance the functionality and usability of this framework:
 
 Page Object Model (POM) Implementation: Refactor the framework to follow the Page Object Model for better scalability and maintainability.
-Data-Driven Testing: Use external data sources (e.g., Excel, CSV) for running tests with different sets of input data.
 Parallel Test Execution: Enable parallel test execution to reduce the time taken for test completion.
 Enhanced Reporting: Integrate tools like Allure or ExtentReports for more comprehensive test reports.
 Cross-Browser Testing: Extend the framework to support more browsers and platforms for comprehensive test coverage.
