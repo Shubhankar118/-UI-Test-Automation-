@@ -82,12 +82,6 @@ This file is located at src/test/resources/config/locators.properties and holds 
 
 properties
 
-# Login Page Locators
-usernameField=//input[@id='user-name']
-passwordField=//input[@id='password']
-loginButton=//input[@id='login-button']
-Running the Tests
-You can execute the tests using TestNG either through Maven or directly from your IDE.
 
 Using Maven
 In the project root directory, run the following command to execute the test suite defined in testng.xml:
