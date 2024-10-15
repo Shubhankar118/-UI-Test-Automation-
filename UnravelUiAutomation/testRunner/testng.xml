@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="false">
+
+    <test name="FunctionalTests">
+        <classes>
+            <!-- Specify the classes to be run -->
+            <class name="testPackage.testCases.LoginPage"/>
+            <class name="testPackage.testCases.SearchPage"/>
+            <class name="testPackage.testCases.CheckOutPage"/>
+            <class name="testPackage.testCases.paymentPageTest"/>
+
+        </classes>
+    </test>
+
+</suite>
