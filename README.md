@@ -113,7 +113,6 @@ Given more time, the following improvements can be made to enhance the functiona
 
 Page Object Model (POM) Implementation: Refactor the framework to follow the Page Object Model for better scalability and maintainability.
 Parallel Test Execution: Enable parallel test execution to reduce the time taken for test completion.
-Enhanced Reporting: Integrate tools like Allure or ExtentReports for more comprehensive test reports.
 Cross-Browser Testing: Extend the framework to support more browsers and platforms for comprehensive test coverage.
 Continuous Integration (CI): Set up CI pipelines with tools like Jenkins or GitHub Actions to automate test execution on each code commit.
 Trade-offs
@@ -121,8 +120,7 @@ While building the framework, some trade-offs were made to keep it simple and fo
 
 Simple Structure vs. Page Object Model: Currently, the structure is straightforward, but refactoring to POM would improve maintainability as the project scales.
 Manual WebDriver Setup vs. Automation: WebDriver setup is done manually, which can be automated further using WebDriverManager.
-Basic Reporting vs. Advanced Reporting: TestNG’s default reports are used, but integrating more sophisticated reporting tools can give better insights into test execution results.
-Contributing
+
 We welcome contributions! If you would like to contribute to this project, please follow the steps below:
 
 Fork the Repository.
@@ -130,11 +128,9 @@ Create a Branch:
 
 git checkout -b feature/your-feature-name
 Commit Your Changes:
-bash
-Copy code
+
 git commit -m "Add your feature description"
 Push the Changes:
-bash
-Copy code
+
 git push origin feature/your-feature-name
 Create a Pull Request on GitHub.
