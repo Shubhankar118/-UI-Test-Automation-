@@ -92,7 +92,13 @@ Using an IDE
 Ensure the project is imported as a Maven project.
 Right-click on the testng.xml file.
 Select Run As > TestNG Suite to execute the tests.
-Test Execution Flow
+
+
+
+
+#Test Execution Flow
+
+
 Base Setup: The BasePage.java class initializes the WebDriver instance based on the browser specified in config.properties, loads the configuration and locator properties, and navigates to the application’s URL.
 
 Test Cases:
