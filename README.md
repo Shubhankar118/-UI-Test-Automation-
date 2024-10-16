@@ -138,6 +138,8 @@ Commit Your Changes:
 
 
 #Future Enhancements and Trade-offs (Summary):
+
+
 Advanced Reporting & Logging
 Enhanced reports (Allure, Extent), detailed logging (Log4j/SLF4J).
 
